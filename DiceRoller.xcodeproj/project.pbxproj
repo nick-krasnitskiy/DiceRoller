@@ -11,6 +11,7 @@
 		EC92FA352C2CA284002507FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC92FA342C2CA284002507FF /* ContentView.swift */; };
 		EC92FA372C2CA286002507FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC92FA362C2CA286002507FF /* Assets.xcassets */; };
 		EC92FA3B2C2CA286002507FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC92FA3A2C2CA286002507FF /* Preview Assets.xcassets */; };
+		EC92FA422C2CA2D5002507FF /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC92FA412C2CA2D5002507FF /* DiceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		EC92FA362C2CA286002507FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC92FA382C2CA286002507FF /* DiceRoller.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DiceRoller.entitlements; sourceTree = "<group>"; };
 		EC92FA3A2C2CA286002507FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC92FA412C2CA2D5002507FF /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				EC92FA322C2CA284002507FF /* DiceRollerApp.swift */,
 				EC92FA342C2CA284002507FF /* ContentView.swift */,
+				EC92FA412C2CA2D5002507FF /* DiceView.swift */,
 				EC92FA362C2CA286002507FF /* Assets.xcassets */,
 				EC92FA382C2CA286002507FF /* DiceRoller.entitlements */,
 				EC92FA392C2CA286002507FF /* Preview Content */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC92FA352C2CA284002507FF /* ContentView.swift in Sources */,
+				EC92FA422C2CA2D5002507FF /* DiceView.swift in Sources */,
 				EC92FA332C2CA284002507FF /* DiceRollerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
