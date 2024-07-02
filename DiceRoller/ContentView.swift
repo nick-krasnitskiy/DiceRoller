@@ -14,6 +14,7 @@ struct ContentView: View {
         VStack {
             Text("Dice Roller")
                 .font(.largeTitle.lowercaseSmallCaps())
+                .foregroundStyle(.white)
             
             HStack {
                 ForEach(1...numberOfDice, id: \.description) { _ in
@@ -37,6 +38,9 @@ struct ContentView: View {
             .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
         }
         .padding()
+        .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, maxHeight: .infinity)
+        .background(.appBackground)
+        .tint(.white)
     }
 }
 
