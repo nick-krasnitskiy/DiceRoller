@@ -22,17 +22,19 @@ struct ContentView: View {
             }
             
             HStack {
-                Button("Remove Dice") {
+                Button("Remove Dice", systemImage: "minus.circle.fill") {
                     numberOfDice -= 1
                 }
                 .disabled(numberOfDice == 1)
                 
-                Button("Add Dice") {
+                Button("Add Dice", systemImage: "plus.circle.fill") {
                     numberOfDice += 1
                 }
                 .disabled(numberOfDice == 5)
             }
             .padding()
+            .labelStyle(.iconOnly)
+            .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
         }
         .padding()
     }
